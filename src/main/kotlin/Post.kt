@@ -6,12 +6,12 @@ import java.time.LocalDate
 import java.util.*
 
 
-data class Post(val id: Long, val ownerId: Long, val fromId: Long, val createdBy: Long, val date: LocalDate,
-                val text: String, val replyOwnerId: Long, val replyPostId: Long, val friendsOnly: Boolean,
-                val comments: Comments, val copyright: String, val likes: Likes, val repost: Reposts,
-                val views: Views, val postType: String, val signerId: Long, val canPin: Boolean,
-                val canDelete: Boolean, val canEdit: Boolean, val isPinned: Boolean, val markedAsAds: Boolean,
-                val isFavorite: Boolean, val postponedId: Long) {
+data class Post(val id: Long, val ownerId: Long = 2, val fromId: Long, val createdBy: Long = 1, val date: String,
+                val text: String, val replyOwnerId: Long = 1, val replyPostId: Long = 1, val friendsOnly: Boolean = false,
+                val comments: Comments, val copyright: String = "zxc", val likes: Likes, val repost: Reposts,
+                val views: Views, val postType: String = "qwerty", val signerId: Long = 1, val canPin: Boolean = false,
+                val canDelete: Boolean = true, val canEdit: Boolean = false, val isPinned: Boolean = false,
+                val markedAsAds: Boolean = true, val isFavorite: Boolean = false, val postponedId: Long = 1) {
 
 }
 
