@@ -1,12 +1,12 @@
 package ru.netology
 
 import Post
+import ru.netology.WallService.currentId
+import ru.netology.WallService.posts
 
 fun main() {
+    add(Post(
 
-
-    val original1 = Post(
-            id = 1,
             fromId = 24,
             date = "12.04.2020",
             text = "Hello Kotlin",
@@ -14,18 +14,33 @@ fun main() {
             likes = Likes(12),
             repost = Reposts(2),
             views = Views(),
-    )
-    val original2 = Post(
-            id = 7,
-            fromId = 4,
-            date = "13.04.2020",
+    ))
+
+    add(Post(
+
+            fromId = 84,
+            date = "22.04.2020",
             text = "Hello World",
-            comments = Comments(11),
-            likes = Likes(24),
-            repost = Reposts(5),
+            comments = Comments(2),
+            likes = Likes(17),
+            repost = Reposts(55),
             views = Views(),
-    )
-    WallService.add(original1)
-    WallService.add(original2)
+    ))
+    for (post in posts) {
+        println(post)
+    }
 
 }
+
+fun add(post: Post): Post {
+    posts += post.copy(id = currentId++)
+    return posts.last()
+
+    return WallService.add(post)
+
+}
+
+fun update(post: Post): Boolean {
+}
+
+
