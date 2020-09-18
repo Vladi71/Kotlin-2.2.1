@@ -26,21 +26,47 @@ fun main() {
             repost = Reposts(55),
             views = Views(),
     ))
-    for (post in posts) {
-        println(post)
-    }
 
+
+    update(Post(
+            id = 1,
+            fromId = 84,
+            date = "22.04.2021",
+            text = "Hello Netology",
+            comments = Comments(2),
+            likes = Likes(17),
+            repost = Reposts(55),
+            views = Views(),
+    ))
+
+    for (post in posts) {
+        print(post.id)
+        print(" ")
+        println(post.date)
+        print(" ")
+        println(post.text)
+
+
+    }
 }
 
 fun add(post: Post): Post {
     posts += post.copy(id = currentId++)
+
     return posts.last()
-
     return WallService.add(post)
-
 }
 
 fun update(post: Post): Boolean {
+    posts.forEachIndexed { index, currentPost ->
+        if (currentPost.id == post.id) {
+            posts[index] = post.copy(id = currentPost.id, date = currentPost.date)
+
+        }
+    }
+
+    return false
 }
+
 
 
