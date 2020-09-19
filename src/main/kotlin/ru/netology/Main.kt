@@ -4,10 +4,9 @@ import Post
 import ru.netology.WallService.currentId
 import ru.netology.WallService.posts
 
+
 fun main() {
     add(Post(
-
-            fromId = 24,
             date = "12.04.2020",
             text = "Hello Kotlin",
             comments = Comments(24),
@@ -17,8 +16,6 @@ fun main() {
     ))
 
     add(Post(
-
-            fromId = 84,
             date = "22.04.2020",
             text = "Hello World",
             comments = Comments(2),
@@ -27,10 +24,8 @@ fun main() {
             views = Views(),
     ))
 
-
     update(Post(
-            id = 1,
-            fromId = 84,
+            id = 2,
             date = "22.04.2021",
             text = "Hello Netology",
             comments = Comments(2),
@@ -38,6 +33,7 @@ fun main() {
             repost = Reposts(55),
             views = Views(),
     ))
+
 
     for (post in posts) {
         print(post.id)
@@ -52,7 +48,6 @@ fun main() {
 
 fun add(post: Post): Post {
     posts += post.copy(id = currentId++)
-
     return posts.last()
     return WallService.add(post)
 }

@@ -1,10 +1,11 @@
+
 import ru.netology.*
 
 
 data class Post(
         val id: Int = WallService.currentId,
         val ownerId: Long = 2,
-        val fromId: Long,
+        val fromId: Long = 50,
         val createdBy: Long = 1,
         val date: String,
         val text: String,
