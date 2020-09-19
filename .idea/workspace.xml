@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="225cc2d5-384d-4a3e-99d7-aaf095daf0ab" name="Default Changelist" comment="Test Commit">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hT1lQoQbSUG4VJDS9fvc4TP18p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin/ru/netology" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.netology" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="ru.netology" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.Kotlin-2.2.1 [build]">
+    <configuration name="Kotlin-2.2.1 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WallServiceTest.add_Post" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.netology.WallServiceTest.add_Post&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WallServiceTest.update" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.netology.WallServiceTest.update&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WallServiceTest.update_Post" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.netology.WallServiceTest.update_Post&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin-2.2.1.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Kotlin-2.2.1 [build]" />
+        <item itemvalue="Gradle.WallServiceTest.update_Post" />
+        <item itemvalue="Gradle.WallServiceTest.update" />
+        <item itemvalue="Gradle.WallServiceTest.add_Post" />
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="225cc2d5-384d-4a3e-99d7-aaf095daf0ab" name="Default Changelist" comment="" />
+      <created>1600020422857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600020422857</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1600027301398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600027301398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first Commit">
+      <created>1600113007832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600113007832</updated>
+    </task>
+    <task id="LOCAL-00003" summary="laconically Commit">
+      <created>1600113091232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600113091232</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add Commit">
+      <created>1600374050126</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600374050127</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update Commit">
+      <created>1600457721775</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600457721775</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test Commit">
+      <created>1600546059486</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600546059486</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="first Commit" />
+    <MESSAGE value="laconically Commit" />
+    <MESSAGE value="add Commit" />
+    <MESSAGE value="update Commit" />
+    <MESSAGE value="Test Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600515409297">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600515409297" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600517921439">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600517921439" />
+    <state x="675" y="328" key="Github.ShareDialog" timestamp="1600027332693">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="675" y="328" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1600027332693" />
+    <state width="1557" height="2" key="GridCell.Tab.0.bottom" timestamp="1600546249915">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600546249915" />
+    <state width="1557" height="2" key="GridCell.Tab.0.center" timestamp="1600546249915">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600546249915" />
+    <state width="1557" height="2" key="GridCell.Tab.0.left" timestamp="1600546249915">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600546249915" />
+    <state width="1557" height="2" key="GridCell.Tab.0.right" timestamp="1600546249915">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600546249915" />
+    <state width="1557" height="198" key="GridCell.Tab.1.bottom" timestamp="1600461895264">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="198" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600461895264" />
+    <state width="1557" height="198" key="GridCell.Tab.1.center" timestamp="1600461895264">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="198" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1600461895264" />
+    <state width="1557" height="198" key="GridCell.Tab.1.left" timestamp="1600461895264">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="198" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1600461895264" />
+    <state width="1557" height="198" key="GridCell.Tab.1.right" timestamp="1600461895264">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="198" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1600461895264" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600457731054">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600457731054" />
+    <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1600515850328">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="616" y="208" key="chooseDestDirectoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1600515850328" />
+    <state x="571" y="212" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1600515850345">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="571" y="212" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1600515850345" />
+    <state x="517" y="201" key="refactoring.ChangeSignatureDialog" timestamp="1600503333150">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="517" y="201" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1600503333150" />
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1600546249903">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600546249903" />
+  </component>
+</project>
