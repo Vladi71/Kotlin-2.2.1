@@ -1,5 +1,8 @@
+@file:Suppress("UNREACHABLE_CODE")
+
 package ru.netology
 
+import Attachment
 import Post
 import ru.netology.WallService.currentId
 import ru.netology.WallService.posts
@@ -13,6 +16,7 @@ fun main() {
             likes = Likes(12),
             repost = Reposts(2),
             views = Views(),
+            attachments = listOf(Audio(), Photo())
     ))
 
     add(Post(
@@ -22,6 +26,7 @@ fun main() {
             likes = Likes(17),
             repost = Reposts(55),
             views = Views(),
+            attachments = listOf(Page(), Video())
     ))
 
     update(Post(
@@ -32,6 +37,7 @@ fun main() {
             likes = Likes(17),
             repost = Reposts(55),
             views = Views(),
+            attachments = listOf(Audio(), Video())
     ))
 
 
@@ -41,6 +47,8 @@ fun main() {
         println(post.date)
         print(" ")
         println(post.text)
+
+
 
 
     }

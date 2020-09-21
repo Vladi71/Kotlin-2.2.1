@@ -26,6 +26,7 @@ data class Post(
         val markedAsAds: Boolean = true,
         val isFavorite: Boolean = false,
         val postponedId: Long = 1,
+        val attachments: List<Attachment>
 )
 
 
