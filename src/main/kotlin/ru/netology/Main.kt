@@ -51,8 +51,6 @@ fun main() {
                     attachments = listOf(Audio(), Photo())
             )),
             attachments = listOf(Sticker(), Video())
-
-
     ))
 
 
