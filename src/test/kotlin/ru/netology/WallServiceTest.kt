@@ -18,6 +18,7 @@ class WallServiceTest {
                 likes = Likes(4, true, canLike = false, canPublish = false),
                 repost = Reposts(1, false),
                 views = Views(1),
+                original = null
         )
 
         val result = WallService.add(post)
@@ -35,6 +36,7 @@ class WallServiceTest {
                 likes = Likes(4, true, canLike = false, canPublish = false),
                 repost = Reposts(1, false),
                 views = Views(1),
+                original = null
         ))
         service.add(Post(
                 date = "13.06.2020",
@@ -43,6 +45,7 @@ class WallServiceTest {
                 likes = Likes(4, true, canLike = false, canPublish = false),
                 repost = Reposts(1, false),
                 views = Views(1),
+                original = null
         ))
 
         val update = Post(
@@ -53,6 +56,7 @@ class WallServiceTest {
                 likes = Likes(4, true, canLike = false, canPublish = false),
                 repost = Reposts(1, false),
                 views = Views(1),
+                original = null
         )
 
 

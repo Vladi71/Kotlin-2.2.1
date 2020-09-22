@@ -1,4 +1,3 @@
-
 import ru.netology.*
 
 
@@ -15,7 +14,7 @@ data class Post(
         val comments: Comments,
         val copyright: String = "zxc",
         val likes: Likes,
-        val repost: Reposts,
+        val original: Post?,
         val views: Views,
         val postType: String = "qwerty",
         val signerId: Long = 1,
@@ -26,7 +25,13 @@ data class Post(
         val markedAsAds: Boolean = true,
         val isFavorite: Boolean = false,
         val postponedId: Long = 1,
+
+        val repost: Reposts,
 )
+
+fun repost(post: Post): Post {
+    return post.original ?: post
+}
 
 
 
