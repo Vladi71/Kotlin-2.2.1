@@ -14,7 +14,9 @@ fun main() {
             likes = Likes(12),
             repost = Reposts(2),
             views = Views(),
-            original = null
+            original = null,
+            attachments = listOf(Audio(), Photo())
+
     ))
 
     add(Post(
@@ -24,7 +26,9 @@ fun main() {
             likes = Likes(17),
             repost = Reposts(55),
             views = Views(),
-            original = null
+            original = null,
+            attachments = listOf()
+
     ))
 
     update(Post(
@@ -35,6 +39,7 @@ fun main() {
             likes = Likes(17),
             repost = Reposts(55),
             views = Views(),
+            attachments = listOf(Audio(), Video()),
             original = repost(Post(
                     date = "12.04.2020",
                     text = "Hello Kotlin",
@@ -42,7 +47,8 @@ fun main() {
                     likes = Likes(12),
                     repost = Reposts(2),
                     views = Views(),
-                    original = null
+                    original = null,
+                    attachments = listOf(Audio(), Photo())
             ))
     ))
 
