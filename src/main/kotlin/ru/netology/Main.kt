@@ -4,6 +4,7 @@ package ru.netology
 
 import Attachment
 import Post
+import repost
 import ru.netology.WallService.currentId
 import ru.netology.WallService.posts
 
@@ -16,6 +17,7 @@ fun main() {
             likes = Likes(12),
             repost = Reposts(2),
             views = Views(),
+            original = null,
             attachments = listOf(Audio(), Photo())
     ))
 
@@ -26,6 +28,7 @@ fun main() {
             likes = Likes(17),
             repost = Reposts(55),
             views = Views(),
+            original = null,
             attachments = listOf(Page(), Video())
     ))
 
@@ -37,7 +40,19 @@ fun main() {
             likes = Likes(17),
             repost = Reposts(55),
             views = Views(),
+            original = repost(Post(
+                    date = "12.04.2020",
+                    text = "Hello Kotlin",
+                    comments = Comments(24),
+                    likes = Likes(12),
+                    repost = Reposts(2),
+                    views = Views(),
+                    original = null,
+                    attachments = listOf(Audio(), Photo())
+            )),
             attachments = listOf(Sticker(), Video())
+
+
     ))
 
 
