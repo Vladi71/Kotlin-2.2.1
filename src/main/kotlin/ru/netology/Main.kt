@@ -53,7 +53,6 @@ fun main() {
             attachments = listOf(Sticker(), Video())
     ))
 
-
     for (post in posts) {
         print(post.id)
         print(" ")
