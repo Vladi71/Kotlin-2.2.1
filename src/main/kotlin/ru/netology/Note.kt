@@ -12,7 +12,9 @@ data class Note(
         val comments: Int = 45,
         val readComments: Int = 45,
         val viewUrl: String = "wsdfdf"
-) : Attachment{
-    override val type: String
-        get() = TODO("Not yet implemented")
+) : Attachment {
+    override val type = "Note"
+    override fun toString(): String {
+        return "$type: title= $title, text= $text"
+    }
 }

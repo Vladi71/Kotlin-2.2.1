@@ -11,8 +11,10 @@ data class Link(
         val product: String = "no",
         val button: Boolean = true,
         val previewPage: Boolean = false,
-        val previewUrl: String = "www/aadadwfa.ru"
+        val previewUrl: String = "www/aadadwfa.ru",
 ) : Attachment {
-    override val type: String
-        get() = TODO("Not yet implemented")
+    override val type = "Link"
+    override fun toString(): String {
+        return "$url: title= $title "
+    }
 }

@@ -37,7 +37,7 @@ fun main() {
             likes = Likes(17),
             repost = Reposts(55),
             views = Views(),
-            attachments = listOf(Audio(), Video())
+            attachments = listOf(Sticker(), Video())
     ))
 
 
@@ -47,9 +47,8 @@ fun main() {
         println(post.date)
         print(" ")
         println(post.text)
-
-
-
+        print(" ")
+        println(post.attachments)
 
     }
 }

@@ -5,6 +5,8 @@ import Attachment
 data class Video(
         val id: Int = 2635
 ) : Attachment {
-    override val type: String
-        get() = TODO("Not yet implemented")
+    override val type = "Video"
+    override fun toString(): String {
+        return "$type: id= $id"
+    }
 }

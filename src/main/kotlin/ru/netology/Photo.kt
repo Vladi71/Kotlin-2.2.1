@@ -7,6 +7,8 @@ data class Photo(
         val albumId: Int = 5,
 
 ) : Attachment {
-    override val type: String
-        get() = TODO("Not yet implemented")
+    override val type = "Photo"
+    override fun toString(): String {
+        return "$type: album $albumId"
+    }
 }
