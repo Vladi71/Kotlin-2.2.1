@@ -1,6 +1,5 @@
 package ru.netology
 
-import Post
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -20,12 +19,9 @@ class WallServiceTest {
                 views = Views(1),
                 attachments = listOf(Audio(), Photo()),
                 original = null
-
         )
-
         val result = WallService.add(post)
         assertTrue(result.id != 0)
-
     }
 
     @Test
@@ -39,8 +35,9 @@ class WallServiceTest {
                 repost = Reposts(1, false),
                 views = Views(1),
                 attachments = listOf(Audio(), Photo()),
-                        original = null
+                original = null
         ))
+
         service.add(Post(
                 date = "13.06.2020",
                 text = "Java",
@@ -63,9 +60,7 @@ class WallServiceTest {
                 attachments = listOf(Audio(), Photo()),
                 original = null
         )
-
-
-        assertTrue(service.currentId == update.id)
-        assertFalse(service.currentId != update.id)
+        val result = service.update(update)
+        assertTrue(result)
     }
 }

@@ -2,14 +2,13 @@
 
 package ru.netology
 
-import Attachment
-import Post
-import repost
-import ru.netology.WallService.currentId
-import ru.netology.WallService.posts
+import ru.netology.WallService.add
+import ru.netology.WallService.postPrint
+import ru.netology.WallService.update
 
 
 fun main() {
+
     add(Post(
             date = "12.04.2020",
             text = "Hello Kotlin",
@@ -52,35 +51,9 @@ fun main() {
             )),
             attachments = listOf(Sticker(), Video())
     ))
-
-    for (post in posts) {
-        print(post.id)
-        print(" ")
-        println(post.date)
-        print(" ")
-        println(post.text)
-        print(" ")
-        println(post.attachments)
-
-    }
+    postPrint()
 }
 
-fun add(post: Post): Post {
-    posts += post.copy(id = currentId++)
-    return posts.last()
-    return WallService.add(post)
-}
-
-fun update(post: Post): Boolean {
-    posts.forEachIndexed { index, currentPost ->
-        if (currentPost.id == post.id) {
-            posts[index] = post.copy(id = currentPost.id, date = currentPost.date)
-
-        }
-    }
-
-    return false
-}
 
 
 

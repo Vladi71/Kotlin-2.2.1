@@ -1,8 +1,8 @@
-import ru.netology.*
+package ru.netology
 
 
 data class Post(
-        val id: Int = WallService.currentId,
+        val id: Int = -1,
         val ownerId: Long = 2,
         val fromId: Long = 50,
         val createdBy: Long = 1,

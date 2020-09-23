@@ -1,7 +1,5 @@
 package ru.netology
 
-import Attachment
-
 data class Link(
         val url: String = "www.sds.ru",
         val title: String = "title",

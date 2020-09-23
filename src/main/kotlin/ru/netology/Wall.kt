@@ -1,7 +1,5 @@
 package ru.netology
 
-import Attachment
-
 data class Wall(
         val methods: Boolean = true,
 ) : Attachment {

@@ -1,7 +1,5 @@
 package ru.netology
 
-import Attachment
-
 data class Document(
         val id: Int = 1,
         val ownerId: Int = 2,
@@ -10,9 +8,9 @@ data class Document(
         val ext: String = ".doc",
         val url: String = "ru.netology",
         val data: String = "14.09.2020",
-        val preview: String = "size"
+        val preview: String = "size",
 
-) : Attachment{
+        ) : Attachment {
     override val type: String
         get() = TODO("Not yet implemented")
 }

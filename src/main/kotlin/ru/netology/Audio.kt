@@ -1,7 +1,5 @@
 package ru.netology
 
-import Attachment
-
 data class Audio(
         val id: Int = 1,
         val ownerId: Int = 2,
@@ -14,10 +12,10 @@ data class Audio(
         val genreId: Int = 7,
         val date: Int = 17_05_1992,
         val noSearch: Boolean = false,
-        val isHq: Boolean = true
+        val isHq: Boolean = true,
 ) : Attachment {
     override val type = "Audio"
     override fun toString(): String {
         return "$type: artist= $artist, title= $title, duration= $duration"
-}
     }
+}

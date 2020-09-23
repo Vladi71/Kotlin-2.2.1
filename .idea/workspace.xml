@@ -19,7 +19,35 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225cc2d5-384d-4a3e-99d7-aaf095daf0ab" name="Default Changelist" comment="Repost, attachments commit" />
+    <list default="true" id="225cc2d5-384d-4a3e-99d7-aaf095daf0ab" name="Default Changelist" comment="Repost, attachments commit new">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.netology.WallServiceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.netology.WallServiceTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.netology.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.netology.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.netology.WallServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ru.netology.WallServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Attachment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Attachment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Post.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Post.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Audio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Audio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Document.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Document.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Link.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Link.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Note.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Note.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Page.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Page.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Photo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Photo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Poll.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Poll.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Reposts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Reposts.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Sticker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Sticker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Video.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Video.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Wall.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Wall.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/WallService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/WallService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ru/netology/WallServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ru/netology/WallServiceTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +109,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.netology" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\НЕТОЛОГИЯ\Progect\Kotlin-2.2.1\src\main\kotlin\ru\netology" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="ru.netology" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -188,9 +222,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.WallServiceTest.update_Post" />
         <item itemvalue="Gradle.Tests in 'Kotlin-2.2.1.test'" />
         <item itemvalue="Gradle.Kotlin-2.2.1 [build]" />
-        <item itemvalue="Gradle.WallServiceTest.update_Post" />
         <item itemvalue="Gradle.WallServiceTest.update" />
       </list>
     </recent_temporary>
@@ -274,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600800588381</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Repost, attachments commit new">
+      <created>1600801210167</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600801210167</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +353,8 @@
     <MESSAGE value="attachments Commit" />
     <MESSAGE value="attachments new" />
     <MESSAGE value="Repost, attachments commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repost, attachments commit" />
+    <MESSAGE value="Repost, attachments commit new" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repost, attachments commit new" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1600631054376">
@@ -323,6 +365,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600515409297" />
+    <state x="579" y="221" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1600877802388">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="579" y="221" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600877802388" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600517921439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -331,22 +377,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="675" y="328" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1600027332693" />
-    <state width="1557" height="2" key="GridCell.Tab.0.bottom" timestamp="1600801028620">
+    <state width="1557" height="96" key="GridCell.Tab.0.bottom" timestamp="1600882600538">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600801028620" />
-    <state width="1557" height="2" key="GridCell.Tab.0.center" timestamp="1600801028620">
+    <state width="1557" height="96" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600882600538" />
+    <state width="1557" height="96" key="GridCell.Tab.0.center" timestamp="1600882600538">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600801028620" />
-    <state width="1557" height="2" key="GridCell.Tab.0.left" timestamp="1600801028620">
+    <state width="1557" height="96" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600882600538" />
+    <state width="1557" height="96" key="GridCell.Tab.0.left" timestamp="1600882600537">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600801028620" />
-    <state width="1557" height="2" key="GridCell.Tab.0.right" timestamp="1600801028620">
+    <state width="1557" height="96" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600882600537" />
+    <state width="1557" height="96" key="GridCell.Tab.0.right" timestamp="1600882600538">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600801028620" />
+    <state width="1557" height="96" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600882600538" />
     <state width="1557" height="198" key="GridCell.Tab.1.bottom" timestamp="1600461895264">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -363,10 +409,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="198" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1600461895264" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600800596583">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600801219365">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600800596583" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600801219365" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1600515850328">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -379,10 +425,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="517" y="201" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1600503333150" />
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1600800479324">
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1600880779178">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600800479324" />
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600880779178" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_2_2_1$Tests_in__Kotlin_2_2_1_test_.ic" NAME="Tests in 'Kotlin-2.2.1.test' Coverage Results" MODIFIED="1600546582498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
