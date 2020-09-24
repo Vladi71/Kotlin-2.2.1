@@ -8,16 +8,17 @@ object WallService {
     fun add(post: Post): Post {
         posts += post.copy(id = currentId++)
         return posts.last()
-        return add(post)
+
     }
 
     fun update(post: Post): Boolean {
         posts.forEachIndexed { index, currentPost ->
             if (currentPost.id == post.id) {
                 posts[index] = post.copy(id = currentPost.id, date = currentPost.date)
+                return true
             }
         }
-        return true
+        return false
     }
 
     fun postPrint() {

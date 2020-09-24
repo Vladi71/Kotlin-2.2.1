@@ -8,7 +8,6 @@ import ru.netology.WallService.update
 
 
 fun main() {
-
     add(Post(
             date = "12.04.2020",
             text = "Hello Kotlin",

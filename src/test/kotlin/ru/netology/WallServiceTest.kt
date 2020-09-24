@@ -7,7 +7,7 @@ import org.junit.Assert.*
 class WallServiceTest {
 
     @Test
-    fun add_Post() {
+    fun addPost() {
 
         val post = Post(
                 id = 1,
@@ -25,7 +25,7 @@ class WallServiceTest {
     }
 
     @Test
-    fun update_Post() {
+    fun updatePost() {
         val service = WallService
         service.add(Post(
                 date = "12.06.2020",
@@ -61,6 +61,20 @@ class WallServiceTest {
                 original = null
         )
         val result = service.update(update)
+        val update1 = Post(
+                id = 8,
+                date = "13.06.2020",
+                text = "Only Kotlin",
+                comments = Comments(2, canPost = true, groupsCanPost = false, canClose = false, canOpen = false),
+                likes = Likes(4, true, canLike = false, canPublish = false),
+                repost = Reposts(1, false),
+                views = Views(1),
+                attachments = listOf(Audio(), Photo()),
+                original = null
+        )
+        val result1 = service.update(update1)
+        assertFalse(result1)
         assertTrue(result)
     }
+
 }
