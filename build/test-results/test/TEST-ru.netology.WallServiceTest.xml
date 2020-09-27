@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.WallServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-09-27T20:00:30" hostname="DESKTOP-JE8DERJ" time="0.442">
+<testsuite name="ru.netology.WallServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-09-27T21:47:40" hostname="DESKTOP-JE8DERJ" time="0.647">
   <properties/>
-  <testcase name="addComment" classname="ru.netology.WallServiceTest" time="0.433"/>
-  <testcase name="addPost" classname="ru.netology.WallServiceTest" time="0.001"/>
-  <testcase name="updatePostFalse" classname="ru.netology.WallServiceTest" time="0.001"/>
-  <testcase name="shouldThrow" classname="ru.netology.WallServiceTest" time="0.001"/>
+  <testcase name="addComment" classname="ru.netology.WallServiceTest" time="0.613"/>
+  <testcase name="addPost" classname="ru.netology.WallServiceTest" time="0.002"/>
+  <testcase name="reportCommentNoId" classname="ru.netology.WallServiceTest" time="0.004"/>
+  <testcase name="updatePostFalse" classname="ru.netology.WallServiceTest" time="0.0"/>
+  <testcase name="shouldThrow" classname="ru.netology.WallServiceTest" time="0.01"/>
+  <testcase name="addReportComment" classname="ru.netology.WallServiceTest" time="0.004"/>
   <testcase name="updatePostTrue" classname="ru.netology.WallServiceTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

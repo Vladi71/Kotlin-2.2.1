@@ -27,6 +27,7 @@ data class Post(
         val postponedId: Long = 1,
         val attachments: List<Attachment>,
         val repost: Reposts,
+        var reportComments: List<ReportComment> = emptyList(),
 )
 
 fun repost(post: Post): Post {

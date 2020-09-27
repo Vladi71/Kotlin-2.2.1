@@ -121,6 +121,71 @@ class WallServiceTest {
         val result = service.createComment(comment)
         assertFalse(result)
     }
+
+    @Test(expected = PostNotFoundException::class)
+    fun reportCommentNoId() {
+
+        val service = WallService
+        service.add(Post(
+                id = 1,
+                date = "12.06.2020",
+                text = "text",
+                likes = Likes(4, true, canLike = false, canPublish = false),
+                repost = Reposts(1, false),
+                views = Views(1),
+                attachments = listOf(Audio(), Photo()),
+                original = null
+        ))
+        val comment = ReportComment(
+                commentId = 5,
+                reason = 1
+        )
+        val result = service.reportComment(comment)
+        assertFalse(result)
+    }
+
+//    @Test(expected = PostNotFoundException::class)
+//    fun reportCommentNoReason() {
+//
+//        val service = WallService
+//        service.add(Post(
+//                id = 1,
+//                date = "12.06.2020",
+//                text = "text",
+//                likes = Likes(4, true, canLike = false, canPublish = false),
+//                repost = Reposts(1, false),
+//                views = Views(1),
+//                attachments = listOf(Audio(), Photo()),
+//                original = null
+//        ))
+//        val comment = ReportComment(
+//                commentId = 1,
+//                reason = 9
+//        )
+//        val result = service.reportComment(comment)
+//        assertFalse(result)
+//    }
+
+    @Test
+    fun addReportComment() {
+        val service = WallService
+        service.add(Post(
+                id = 1,
+                date = "12.06.2020",
+                text = "text",
+                likes = Likes(4, true, canLike = false, canPublish = false),
+                repost = Reposts(1, false),
+                views = Views(1),
+                attachments = listOf(Audio(), Photo()),
+                original = null
+        ))
+        val comment = ReportComment(
+                commentId = 1,
+                reason = 5
+        )
+        val result = service.reportComment(comment)
+        assertTrue(result)
+    }
 }
 
 

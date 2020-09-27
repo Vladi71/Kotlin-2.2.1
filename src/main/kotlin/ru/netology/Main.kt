@@ -5,6 +5,7 @@ package ru.netology
 import ru.netology.WallService.add
 import ru.netology.WallService.createComment
 import ru.netology.WallService.postPrint
+import ru.netology.WallService.reportComment
 import ru.netology.WallService.update
 
 
@@ -51,8 +52,9 @@ fun main() {
             attachments = listOf(Sticker(), Video())
     ))
 
-    createComment(Comments(1, "Комментарий без ошибок", listOf()))
-    createComment(Comments(4, "Комментарий для ошибки", listOf()))
+    createComment(Comments(1, "Добавлен новый комментарий", listOf()))
+    // createComment(Comments(4, "Комментарий для ошибки", listOf()))
+    reportComment(ReportComment(1, 5))
     postPrint()
 }
 
