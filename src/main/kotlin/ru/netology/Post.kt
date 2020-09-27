@@ -11,7 +11,7 @@ data class Post(
         val replyOwnerId: Long = 1,
         val replyPostId: Long = 1,
         val friendsOnly: Boolean = false,
-        val comments: Comments,
+        var comments: List<Comments> = emptyList(),
         val copyright: String = "zxc",
         val likes: Likes,
         val original: Post?,

@@ -1,3 +1,5 @@
+@file:Suppress("UNREACHABLE_CODE")
+
 package ru.netology
 
 import org.junit.Test
@@ -8,12 +10,10 @@ class WallServiceTest {
 
     @Test
     fun addPost() {
-
         val post = Post(
                 id = 1,
                 date = "12.06.2020",
                 text = "text",
-                comments = Comments(2, canPost = true, groupsCanPost = false, canClose = false, canOpen = false),
                 likes = Likes(4, true, canLike = false, canPublish = false),
                 repost = Reposts(1, false),
                 views = Views(1),
@@ -25,23 +25,11 @@ class WallServiceTest {
     }
 
     @Test
-    fun updatePost() {
+    fun updatePostTrue() {
         val service = WallService
         service.add(Post(
                 date = "12.06.2020",
                 text = "Kotlin",
-                comments = Comments(2, canPost = true, groupsCanPost = false, canClose = false, canOpen = false),
-                likes = Likes(4, true, canLike = false, canPublish = false),
-                repost = Reposts(1, false),
-                views = Views(1),
-                attachments = listOf(Audio(), Photo()),
-                original = null
-        ))
-
-        service.add(Post(
-                date = "13.06.2020",
-                text = "Java",
-                comments = Comments(2, canPost = true, groupsCanPost = false, canClose = false, canOpen = false),
                 likes = Likes(4, true, canLike = false, canPublish = false),
                 repost = Reposts(1, false),
                 views = Views(1),
@@ -53,7 +41,6 @@ class WallServiceTest {
                 id = 1,
                 date = "13.06.2020",
                 text = "Only Kotlin",
-                comments = Comments(2, canPost = true, groupsCanPost = false, canClose = false, canOpen = false),
                 likes = Likes(4, true, canLike = false, canPublish = false),
                 repost = Reposts(1, false),
                 views = Views(1),
@@ -61,20 +48,80 @@ class WallServiceTest {
                 original = null
         )
         val result = service.update(update)
-        val update1 = Post(
-                id = 8,
+        assertTrue(result)
+    }
+
+    @Test
+    fun updatePostFalse() {
+        val service = WallService
+        service.add(Post(
+                date = "12.06.2020",
+                text = "Kotlin",
+                likes = Likes(4, true, canLike = false, canPublish = false),
+                repost = Reposts(1, false),
+                views = Views(1),
+                attachments = listOf(Audio(), Photo()),
+                original = null
+        ))
+
+        val update = Post(
+                id = 5,
                 date = "13.06.2020",
                 text = "Only Kotlin",
-                comments = Comments(2, canPost = true, groupsCanPost = false, canClose = false, canOpen = false),
                 likes = Likes(4, true, canLike = false, canPublish = false),
                 repost = Reposts(1, false),
                 views = Views(1),
                 attachments = listOf(Audio(), Photo()),
                 original = null
         )
-        val result1 = service.update(update1)
-        assertFalse(result1)
+        val result = service.update(update)
+        assertFalse(result)
+    }
+
+    @Test
+    fun addComment() {
+        val service = WallService
+        service.add(Post(
+                id = 1,
+                date = "12.06.2020",
+                text = "text",
+                likes = Likes(4, true, canLike = false, canPublish = false),
+                repost = Reposts(1, false),
+                views = Views(1),
+                attachments = listOf(Audio(), Photo()),
+                original = null
+        ))
+        val comment = Comments(
+                postId = 1,
+                message = "Добавляю комментарий",
+                attachments = listOf())
+
+        val result = service.createComment(comment)
         assertTrue(result)
     }
 
+    @Test(expected = PostNotFoundException::class)
+    fun shouldThrow() {
+
+        val service = WallService
+        service.add(Post(
+                id = 1,
+                date = "12.06.2020",
+                text = "text",
+                likes = Likes(4, true, canLike = false, canPublish = false),
+                repost = Reposts(1, false),
+                views = Views(1),
+                attachments = listOf(Audio(), Photo()),
+                original = null
+        ))
+        val comment = Comments(
+                postId = 5,
+                message = "Добавляю комментарий",
+                attachments = listOf())
+        val result = service.createComment(comment)
+        assertFalse(result)
+    }
 }
+
+
+
